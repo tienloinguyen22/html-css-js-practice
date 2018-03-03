@@ -1,0 +1,526 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration-line: none;
+    border-collapse: collapse;
+}
+
+body {
+    width: 62.5%;
+    position: relative;
+    margin: 0 auto;
+}
+
+
+/* Banner */
+div.banner {
+    height: 800px;
+    width: 100%;
+    background-image: url('./cover-photo.jpg');
+    position: relative;
+}
+
+div.nav-bar {
+    width: 100%;
+    height: 10%;
+    position: relative;
+}
+
+div.nav-bar p {
+    font-family: Courier New, Courier, monospace;
+    font-weight: bold;
+    font-size: 2.25rem;
+    color: white;
+    text-align: center;
+    letter-spacing: 3px;
+    width: 15%;
+    height: 100%;
+    float: left;
+    line-height: 80px;
+    position: relative;
+}
+
+div.nav-bar nav {
+    width: 70%;
+    height: 100%;
+    display: relative;
+    float: right;
+}
+
+div.nav-bar nav a {
+    display: block;
+    float: left;
+    height: 100%;
+    width: 15%;
+    color: white;
+    font-family: Courier New, Courier, monospace;
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-align: center;
+    line-height: 80px;
+}
+
+div.nav-bar nav a:first-child {
+    margin-left: 5%;
+}
+
+div.nav-bar nav a.active {
+    color: #fcd588;
+    border-bottom: 3px solid #fcd588;
+}
+
+div.nav-bar nav a:hover {
+    color: #fcd588;
+    border-bottom: 3px solid #fcd588;
+}
+
+h1.creative {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 4rem;
+    color: white;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: 18%;
+}
+
+h1.welcome {
+    border: 1px solid white;
+    font-family: Courier New, Courier, monospace;
+    font-size: 4.875rem;
+    letter-spacing: 15px;
+    color: white;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    top: 20%;
+}
+
+p.learn-more {
+    border: 2px solid white;
+    color: white;
+    font-family: Courier New, Courier, monospace;
+    font-size: 1.375rem;
+    width: 15%;
+    height: 5%;
+    text-align: center;
+    line-height: 40px;
+    margin: 0 auto;
+    position: relative;
+    top: 28%;
+}
+
+div.explore {
+    width: 75%;
+    height: 5%;
+    margin: 0 auto;
+    position: relative;
+    top: 40%;
+}
+
+div.explore a {
+    display: block;
+    float: left;
+    height: 100%;
+    width: 25%;
+    color: white;
+    font-family: Courier New, Courier, monospace;
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-align: center;
+    line-height: 40px;
+}
+
+div.explore a:hover {
+    border-top: 2px solid #ff8e8e;
+}
+
+
+/* Intro */
+
+#intro {
+    width: 100%;
+    height: 1200px;
+    position: relative;
+}
+
+#intro p.what-we-do {
+    font-family: Courier New, Courier, monospace;
+    font-size: 1.3rem;
+    width: 20%;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    top: 6%;
+}
+
+#intro p.story {
+    font-family: Courier New, Courier, monospace;
+    font-size: 1.8rem;
+    font-weight: bold;
+    width: 25%;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    top: 8%;
+}
+
+#intro p.lorem {
+    font-family: Courier New, Courier, monospace;
+    font-size: 1rem;
+    color: gray;
+    width: 75%;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    top: 10%;
+}
+
+#intro div.galery {
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    grid-column-gap: 1.2%;
+    justify-content: center;
+    width: 100%;
+    height: 25%;
+    position: relative;
+    top: 12%;
+}
+
+#intro div.galery img {
+    display: block;
+    float: left;
+}
+
+#intro div.archive {
+    width: 100%;
+    height: 27%;
+    position: relative;
+    top: 12%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #95e1d3;
+}
+
+#intro div.archive div.archive-number {
+    border-left: 1px solid white;
+    width: 18%;
+}
+
+#intro div.archive div.archive-number:last-child {
+    border-right: 1px solid white;
+}
+
+#intro div.archive div.archive-number h1 {
+    font-family: Courier New, Courier, monospace;
+    font-size: 4rem;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    position: relative;
+    top: 22%;
+}
+
+#intro div.archive div.archive-number p {
+    font-family: Courier New, Courier, monospace;
+    font-size: 1rem;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    top: 25%;
+}
+
+#intro div.services {
+    position: relative;
+    top: 15%;
+    width: 100%;
+    height: 25%;
+}
+
+#intro div.services h1 {
+    font-family: Courier New, Courier, monospace;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+    top: 5%;
+}
+
+#intro div.services div.service-table {
+    width: 100%;
+    height: 65%;
+    position: relative;
+    top: 8%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#intro div.services div.service-table div.service {
+    width: 32%;
+    height: 50%;
+    margin-top: 3%;
+}
+
+#intro div.services div.service-table div.service:nth-child(-n+3) {
+    border-bottom: 1px solid gray;
+}
+
+
+#intro div.services div.service-table div.service img {
+    display: block;
+    float: left;
+    margin-top: 0.5%;
+    margin-right: 5%;
+}
+
+#intro div.services div.service-table div.service p.p1 {
+    float: left;
+    font-family: Courier New, Courier, monospace;
+    font-size: 1.2rem;
+    text-align: left;
+    font-weight: bold;
+    color: gray;
+}
+
+#intro div.services div.service-table div.service p.p2 {
+    float: left;
+    font-family: Courier New, Courier, monospace;
+    font-size: 0.8rem;
+    text-align: left;
+    width: 85%;
+    margin-top: 2%;
+    color: gray;
+}
+
+/* Work */
+
+#work {
+    width: 100%;
+    height: 1400px;
+    position: relative;
+}
+
+#work div.work-banner {
+    width: 100%;
+    height: 50%;
+    background-image: url('./forest.jpg');
+    position: relative;
+}
+
+#work div.work-banner p.for-all-devices {
+    width: 20%;
+    position: relative;
+    font-family: Courier New, Courier, monospace;
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+#work div.work-banner p.unique-design {
+    width: 30%;
+    position: relative;
+    font-family: Courier New, Courier, monospace;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 1%;
+}
+
+#work div.work-banner img.ipad {
+    display: block;
+    position: relative;
+    left: 20%;
+    margin-top: 4%;
+}
+
+#work div.work-banner img.iphone {
+    position: absolute;
+    left: 54%;
+    bottom: 0.6%;
+}
+
+#work div.what-we-do {
+    width: 100%;
+    height: 40%;
+    position: relative;
+}
+
+#work div.what-we-do h3 {
+    width: 15%;
+    position: relative;
+    font-family: Courier New, Courier, monospace;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 0.8%;
+}
+
+#work div.what-we-do h2 {
+    width: 20%;
+    position: relative;
+    font-family: Courier New, Courier, monospace;
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 1%;
+}
+
+#work div.what-we-do div.img-dropdown {
+    width: 100%;
+    height: 80%;
+    position: relative;
+    top: 5%;
+}
+
+#work div.what-we-do div.img-dropdown img {
+    display: block;
+    float: left;
+    width: 50%;
+    position: relative;
+}
+
+#work div.what-we-do div.img-dropdown div.dropdown {
+    float: right;
+    width: 45%;
+    position: relative;
+}
+
+#work div.what-we-do div.img-dropdown div.dropdown button {
+    width: 100%;
+    height: 50px;
+    position: relative;
+    background-color: white;
+    border: 0;
+    border-bottom: 1px solid gray;
+    font-family: Courier New, Courier, monospace;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    text-align: left;
+    padding-left: 40px;
+    cursor: pointer;
+}
+
+#work div.what-we-do div.img-dropdown div.dropdown button::after {
+    content: '+';
+    float: right;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+#work div.what-we-do div.img-dropdown div.dropdown button.active::after {
+    content: '-';
+    float: right;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+#work div.what-we-do div.img-dropdown div.dropdown div.content {
+    width: 100%;
+    height: 0px;
+    overflow: hidden;
+    transition: height 0.2s ease-out;
+    position: relative;
+    font-family: Courier New, Courier, monospace;
+    font-size: 1rem; 
+    padding-left: 40px;
+    padding-right: 20px;
+}
+
+#work div.slideshow {
+    width: 100%;
+    position: relative;
+}
+
+#work div.slideshow div.slide {
+    width: 70%;
+    position: relative;
+    height: 100px;
+    margin: 0 auto;
+    animation-name: fade;
+    animation-duration: 1.5s;
+    color: white;
+    border-radius: 15px;
+}
+
+#work div.slideshow div.john-doe {
+    display: block;
+    background-color: #95e1d3;
+}
+#work div.slideshow div.minh-beo {
+    display: none;
+    background-color: #fcd588
+}
+#work div.slideshow div.tien-loi {
+    display: none;
+    background-color: #ff8e8e;
+}
+
+#work div.slideshow div.slide p {
+    width: 60%;
+    position: relative;
+    top: 12%;
+    font-family: Courier New, Courier, monospace;
+    font-size: 0.8rem;
+    margin: 0 auto;
+}
+
+#work div.slideshow div.slide p span {
+    font-family: Courier New, Courier, monospace;
+    font-size: 1.1rem;
+    font-weight: bold;
+    display: inline-block;
+    margin-right: 100px;
+}
+
+#work div.slideshow a {
+    display: block;
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    float: left;
+    margin-top: 20px;
+    cursor: pointer;
+    position: relative;
+    bottom: 100px;
+}
+
+#work div.slideshow a:hover {
+    color: hotpink;
+}
+
+#work div.slideshow a.next {
+    float: right;
+}
+
+@keyframes fade {
+    from {opacity: 0.4;}
+    to {opacity: 1}
+}
+
+
+
+
+
+
+
+
+
+
+
+
